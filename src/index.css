@@ -5,10 +5,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg');
   background-repeat:no-repeat;
-  background-size: cover;
+  
+ background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media screen and (max-width : 992px) {
+  body{
+    background-image:url('https://images.unsplash.com/photo-1547483238-2cbf881a559f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80');
+    background-repeat: no-repeat;
+
+    background-size:unset;
+  }
 }
