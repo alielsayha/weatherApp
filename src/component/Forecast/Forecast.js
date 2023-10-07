@@ -84,7 +84,7 @@ const Forecast = ({ data }) => {
                     <span>
                       {result_6[idx].dt_txt.split(" ")[1].slice(0, 1) == "0"
                         ? result_6[idx].dt_txt.split(" ")[1].slice(1, 5)
-                        : result_6[idx].dt_txt.split(" ")[1].slice(0, 5)}
+                        : result_6[idx].dt_txt.split(" ")[1].slice(0, 5)} Am
                     </span>
                     <img
                       src={`icons/${result_6[idx].weather[0].icon}.png`}
@@ -96,7 +96,7 @@ const Forecast = ({ data }) => {
                     <span>
                       {result_9[idx].dt_txt.split(" ")[1].slice(0, 1) == "0"
                         ? result_9[idx].dt_txt.split(" ")[1].slice(1, 5)
-                        : result_9[idx].dt_txt.split(" ")[1].slice(0, 5)}
+                        : result_9[idx].dt_txt.split(" ")[1].slice(0, 5)} Am
                     </span>
                     <img
                       src={`icons/${result_9[idx].weather[0].icon}.png`}
@@ -108,7 +108,7 @@ const Forecast = ({ data }) => {
                     <span>
                       {result_12[idx].dt_txt.split(" ")[1].slice(0, 1) == "0"
                         ? result_12[idx].dt_txt.split(" ")[1].slice(1, 5)
-                        : result_12[idx].dt_txt.split(" ")[1].slice(0, 5)}
+                        : result_12[idx].dt_txt.split(" ")[1].slice(0, 5)} Pm
                     </span>
                     <img
                       src={`icons/${result_12[idx].weather[0].icon}.png`}
@@ -120,7 +120,7 @@ const Forecast = ({ data }) => {
                     <span>
                       {result_15[idx].dt_txt.split(" ")[1].slice(0, 1) == "0"
                         ? result_15[idx].dt_txt.split(" ")[1].slice(1, 5)
-                        : result_15[idx].dt_txt.split(" ")[1].slice(0, 5)}
+                        : result_15[idx].dt_txt.split(" ")[1].slice(0, 5)} Pm
                     </span>
                     <img
                       src={`icons/${result_15[idx].weather[0].icon}.png`}
@@ -132,7 +132,7 @@ const Forecast = ({ data }) => {
                     <span>
                       {result_18[idx].dt_txt.split(" ")[1].slice(0, 1) == "0"
                         ? result_18[idx].dt_txt.split(" ")[1].slice(1, 5)
-                        : result_18[idx].dt_txt.split(" ")[1].slice(0, 5)}
+                        : result_18[idx].dt_txt.split(" ")[1].slice(0, 5)} Pm
                     </span>
                     <img
                       src={`icons/${result_18[idx].weather[0].icon}.png`}
@@ -144,7 +144,7 @@ const Forecast = ({ data }) => {
                     <span>
                       {result_21[idx].dt_txt.split(" ")[1].slice(0, 1) == "0"
                         ? result_21[idx].dt_txt.split(" ")[1].slice(1, 5)
-                        : result_21[idx].dt_txt.split(" ")[1].slice(0, 5)}
+                        : result_21[idx].dt_txt.split(" ")[1].slice(0, 5)} Pm
                     </span>
                     <img
                       src={`icons/${result_21[idx].weather[0].icon}.png`}
@@ -156,7 +156,7 @@ const Forecast = ({ data }) => {
                     <span>
                       {result_00[idx].dt_txt.split(" ")[1].slice(0, 1) == "0"
                         ? result_00[idx].dt_txt.split(" ")[1].slice(1, 5)
-                        : result_00[idx].dt_txt.split(" ")[1].slice(0, 5)}
+                        : result_00[idx].dt_txt.split(" ")[1].slice(0, 5)} Am
                     </span>
                     <img
                       src={`icons/${result_00[idx].weather[0].icon}.png`}
@@ -168,7 +168,7 @@ const Forecast = ({ data }) => {
                     <span>
                       {result_3[idx].dt_txt.split(" ")[1].slice(0, 1) == "0"
                         ? result_3[idx].dt_txt.split(" ")[1].slice(1, 5)
-                        : result_3[idx].dt_txt.split(" ")[1].slice(0, 5)}
+                        : result_3[idx].dt_txt.split(" ")[1].slice(0, 5)} Am
                     </span>
                     <img
                       src={`icons/${result_3[idx].weather[0].icon}.png`}
